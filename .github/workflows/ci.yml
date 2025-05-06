@@ -29,3 +29,5 @@ jobs:
         with:
           name: allure-report
           path: target/site/allure-maven-plugin/
+#          name: allure-report-store
+#          path: target/site/allure-maven-plugin/
