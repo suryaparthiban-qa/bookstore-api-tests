@@ -16,7 +16,7 @@ public class BookStoreAPITest {
     public void testCreateBook() {
         Map<String, Object> bookDetails = new HashMap<>();
         bookDetails.put("title", "Test Book");
-        bookDetails.put("author", "John Doe");
+        bookDetails.put("author", "Surya P");
         bookDetails.put("price", 19.99);
 
         Response response = APIUtils.createBook(bookDetails);
@@ -37,7 +37,7 @@ public class BookStoreAPITest {
     public void testUpdateBook() {
         Map<String, Object> updatedDetails = new HashMap<>();
         updatedDetails.put("title", "Updated Test Book");
-        updatedDetails.put("author", "John Doe");
+        updatedDetails.put("author", "Surya P");
         updatedDetails.put("price", 25.99);
 
         Response response = APIUtils.updateBook(createdBookId, updatedDetails);
