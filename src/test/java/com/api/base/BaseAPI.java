@@ -18,6 +18,7 @@ public class BaseAPI {
         } catch (IOException e) {
             e.printStackTrace();
         }
+        //RestAssured.baseURI = baseUrl;
         RestAssured.baseURI = baseUrl;
     }
 }
